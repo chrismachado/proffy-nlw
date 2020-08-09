@@ -9,24 +9,28 @@ It is a platform where everyone can study and teach. To study, the student must 
 First of all you'll need to clone this repository by using
 
 ```bash
-git clone https://github.com/chrismachado/proffy-nlw.git
+$ git clone https://github.com/chrismachado/proffy-nlw.git
+$ code proffy-nlw/
 ```
 
-_Note: if you don't have git install, [check it out](https://git-scm.com/downloads)._
+_Note¹: if you don't have git install, [check it out](https://git-scm.com/downloads)._
 
-Second, just type this command on project folder
+_Note²: I'm using code, but you can use any editor you want._
+
+Then, 
 
 ```bash
-## standard dependencies
-$ npm install express
-$ npm install nunjucks
-$ npm install sqlite-async
+## use npm
+$ npm install 
+$ npm run dev
 
-## develop dependency
-$ npm install nodemon
+## or, use yarn
+$ yarn install
+$ yarn run dev
+
 ```
 
-After do this, just type in your browser _https://localhost:5500_.
+After this, just type in your browser's url _https://localhost:5500_.
 
 # Special thanks
 
